@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayoutMenu"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/ic_white_background"
+    android:orientation="vertical"
+    tools:ignore="NewApi" >
+    
+   <include layout="@layout/impatient_action_bar"/>
+
+    <TableLayout
+        android:layout_width="320dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        tools:ignore="UselessParent" >
+
+        <TableRow
+            android:id="@+id/tableRowCheckListProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/imageViewCheckIn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@drawable/ic_checkin" 
+                android:contentDescription="@string/contentDescCheckIn"/>
+
+            <ImageView
+                android:id="@+id/imageViewWaitingList"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@drawable/ic_waiting_list" 
+                android:contentDescription="@string/contentDescWList"/>
+
+            <ImageView
+                android:id="@+id/imageViewProfile"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@drawable/ic_profile" 
+                android:contentDescription="@string/contentDescProfile"/>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRowDoctorEmailTreatment"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/imageViewDoctor"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@drawable/ic_doctor" 
+                android:contentDescription="@string/contentDescDoctor"/>
+
+            <ImageView
+                android:id="@+id/imageViewEmail"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@drawable/ic_email" 
+                android:contentDescription="@string/contentDescEmail"/>
+
+            <ImageView
+                android:id="@+id/imageViewTreatment"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@drawable/ic_treatment" 
+                android:contentDescription="@string/contentDescTreatment"/>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRowDateSettings"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/imageViewDate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@drawable/ic_date" 
+                android:contentDescription="@string/contentDescDate" />
+
+            <ImageView
+                android:id="@+id/imageViewSettings"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@drawable/ic_settings" 
+                android:contentDescription="@string/contentDescSettings" />
+
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

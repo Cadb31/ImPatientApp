@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_white_background"
+    android:orientation="vertical" >
+
+    <include layout="@layout/impatient_action_bar" />
+
+    <TableRow
+        android:id="@+id/tableRowSettingsHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginRight="@dimen/right_dimension_20"
+        android:layout_marginTop="@dimen/top_dimension"
+        tools:ignore="RtlHardcoded" >
+
+        <TextView
+            android:id="@+id/textViewSettingsHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_view_settings" />
+    </TableRow>
+
+    <ImageView
+        android:id="@+id/imageViewSettingsVerticalLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/void_decription"
+        android:src="@drawable/ic_vertical_line" />
+
+</LinearLayout>

@@ -1,0 +1,119 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\repositories\github\ImPatientApp\ImPatient\app\src\main\AndroidManifest.xml:2:1-57:12
+	package
+		ADDED from C:\repositories\github\ImPatientApp\ImPatient\app\src\main\AndroidManifest.xml:3:5-46
+		INJECTED from C:\repositories\github\ImPatientApp\ImPatient\app\src\main\AndroidManifest.xml
+		INJECTED from C:\repositories\github\ImPatientApp\ImPatient\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\repositories\github\ImPatientApp\ImPatient\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from C:\repositories\github\ImPatientApp\ImPatient\app\src\main\AndroidManifest.xml
+		INJECTED from C:\repositories\github\ImPatientApp\ImPatient\app\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from C:\repositories\github\ImPatientApp\ImPatient\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from C:\repositories\github\ImPatientApp\ImPatient\app\src\main\AndroidManifest.xml
+		INJECTED from C:\repositories\github\ImPatientApp\ImPatient\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\repositories\github\ImPatientApp\ImPatient\app\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from C:\repositories\github\ImPatientApp\ImPatient\app\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:22.2.1] C:\repositories\github\ImPatientApp\ImPatient\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.2.1] C:\repositories\github\ImPatientApp\ImPatient\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		ADDED from C:\repositories\github\ImPatientApp\ImPatient\app\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from C:\repositories\github\ImPatientApp\ImPatient\app\src\main\AndroidManifest.xml
+		INJECTED from C:\repositories\github\ImPatientApp\ImPatient\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\repositories\github\ImPatientApp\ImPatient\app\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from C:\repositories\github\ImPatientApp\ImPatient\app\src\main\AndroidManifest.xml
+		INJECTED from C:\repositories\github\ImPatientApp\ImPatient\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\repositories\github\ImPatientApp\ImPatient\app\src\main\AndroidManifest.xml:10:5-66
+	android:name
+		ADDED from C:\repositories\github\ImPatientApp\ImPatient\app\src\main\AndroidManifest.xml:10:22-64
+application
+ADDED from C:\repositories\github\ImPatientApp\ImPatient\app\src\main\AndroidManifest.xml:12:5-55:19
+MERGED from [com.android.support:appcompat-v7:22.2.1] C:\repositories\github\ImPatientApp\ImPatient\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.2.1] C:\repositories\github\ImPatientApp\ImPatient\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from C:\repositories\github\ImPatientApp\ImPatient\app\src\main\AndroidManifest.xml:15:9-41
+	android:allowBackup
+		ADDED from C:\repositories\github\ImPatientApp\ImPatient\app\src\main\AndroidManifest.xml:13:9-35
+	android:icon
+		ADDED from C:\repositories\github\ImPatientApp\ImPatient\app\src\main\AndroidManifest.xml:14:9-41
+	android:theme
+		ADDED from C:\repositories\github\ImPatientApp\ImPatient\app\src\main\AndroidManifest.xml:16:9-40
+activity#com.coursera.capstore.impatient.LoginImpatientActivity
+ADDED from C:\repositories\github\ImPatientApp\ImPatient\app\src\main\AndroidManifest.xml:18:9-20:58
+	android:label
+		ADDED from C:\repositories\github\ImPatientApp\ImPatient\app\src\main\AndroidManifest.xml:20:13-55
+	android:name
+		ADDED from C:\repositories\github\ImPatientApp\ImPatient\app\src\main\AndroidManifest.xml:19:13-51
+activity#com.coursera.capstore.impatient.LogoImpatientActivity
+ADDED from C:\repositories\github\ImPatientApp\ImPatient\app\src\main\AndroidManifest.xml:21:9-27:20
+	android:name
+		ADDED from C:\repositories\github\ImPatientApp\ImPatient\app\src\main\AndroidManifest.xml:21:19-56
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\repositories\github\ImPatientApp\ImPatient\app\src\main\AndroidManifest.xml:22:13-26:29
+action#android.intent.action.MAIN
+ADDED from C:\repositories\github\ImPatientApp\ImPatient\app\src\main\AndroidManifest.xml:23:17-69
+	android:name
+		ADDED from C:\repositories\github\ImPatientApp\ImPatient\app\src\main\AndroidManifest.xml:23:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\repositories\github\ImPatientApp\ImPatient\app\src\main\AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from C:\repositories\github\ImPatientApp\ImPatient\app\src\main\AndroidManifest.xml:25:27-74
+activity#com.coursera.capstore.impatient.MenuImpatientActivity
+ADDED from C:\repositories\github\ImPatientApp\ImPatient\app\src\main\AndroidManifest.xml:28:9-30:57
+	android:label
+		ADDED from C:\repositories\github\ImPatientApp\ImPatient\app\src\main\AndroidManifest.xml:30:13-54
+	android:name
+		ADDED from C:\repositories\github\ImPatientApp\ImPatient\app\src\main\AndroidManifest.xml:29:13-50
+activity#com.coursera.capstore.impatient.CheckInImpatientActivity
+ADDED from C:\repositories\github\ImPatientApp\ImPatient\app\src\main\AndroidManifest.xml:31:9-33:60
+	android:label
+		ADDED from C:\repositories\github\ImPatientApp\ImPatient\app\src\main\AndroidManifest.xml:33:13-57
+	android:name
+		ADDED from C:\repositories\github\ImPatientApp\ImPatient\app\src\main\AndroidManifest.xml:32:13-53
+activity#com.coursera.capstore.impatient.WaitingListImpatientActivtity
+ADDED from C:\repositories\github\ImPatientApp\ImPatient\app\src\main\AndroidManifest.xml:34:9-36:65
+	android:label
+		ADDED from C:\repositories\github\ImPatientApp\ImPatient\app\src\main\AndroidManifest.xml:36:13-62
+	android:name
+		ADDED from C:\repositories\github\ImPatientApp\ImPatient\app\src\main\AndroidManifest.xml:35:13-58
+activity#com.coursera.capstore.impatient.ProfileImpatientActivity
+ADDED from C:\repositories\github\ImPatientApp\ImPatient\app\src\main\AndroidManifest.xml:37:9-39:60
+	android:label
+		ADDED from C:\repositories\github\ImPatientApp\ImPatient\app\src\main\AndroidManifest.xml:39:13-57
+	android:name
+		ADDED from C:\repositories\github\ImPatientApp\ImPatient\app\src\main\AndroidManifest.xml:38:13-53
+activity#com.coursera.capstore.impatient.DoctorImpatientActivity
+ADDED from C:\repositories\github\ImPatientApp\ImPatient\app\src\main\AndroidManifest.xml:40:9-42:59
+	android:label
+		ADDED from C:\repositories\github\ImPatientApp\ImPatient\app\src\main\AndroidManifest.xml:42:13-56
+	android:name
+		ADDED from C:\repositories\github\ImPatientApp\ImPatient\app\src\main\AndroidManifest.xml:41:13-52
+activity#com.coursera.capstore.impatient.EmailImpatientActivity
+ADDED from C:\repositories\github\ImPatientApp\ImPatient\app\src\main\AndroidManifest.xml:43:9-45:58
+	android:label
+		ADDED from C:\repositories\github\ImPatientApp\ImPatient\app\src\main\AndroidManifest.xml:45:13-55
+	android:name
+		ADDED from C:\repositories\github\ImPatientApp\ImPatient\app\src\main\AndroidManifest.xml:44:13-51
+activity#com.coursera.capstore.impatient.TreatmentImpatientActivity
+ADDED from C:\repositories\github\ImPatientApp\ImPatient\app\src\main\AndroidManifest.xml:46:9-48:62
+	android:label
+		ADDED from C:\repositories\github\ImPatientApp\ImPatient\app\src\main\AndroidManifest.xml:48:13-59
+	android:name
+		ADDED from C:\repositories\github\ImPatientApp\ImPatient\app\src\main\AndroidManifest.xml:47:13-55
+activity#com.coursera.capstore.impatient.DatePatientActivity
+ADDED from C:\repositories\github\ImPatientApp\ImPatient\app\src\main\AndroidManifest.xml:49:9-51:57
+	android:label
+		ADDED from C:\repositories\github\ImPatientApp\ImPatient\app\src\main\AndroidManifest.xml:51:13-54
+	android:name
+		ADDED from C:\repositories\github\ImPatientApp\ImPatient\app\src\main\AndroidManifest.xml:50:13-48
+activity#com.coursera.capstore.impatient.SettingImpatientActivity
+ADDED from C:\repositories\github\ImPatientApp\ImPatient\app\src\main\AndroidManifest.xml:52:9-54:60
+	android:label
+		ADDED from C:\repositories\github\ImPatientApp\ImPatient\app\src\main\AndroidManifest.xml:54:13-57
+	android:name
+		ADDED from C:\repositories\github\ImPatientApp\ImPatient\app\src\main\AndroidManifest.xml:53:13-53

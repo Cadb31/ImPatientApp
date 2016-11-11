@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\git\ImPatient\ImPatient\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="C:\git\ImPatient\ImPatient\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-22.2.1_1a86368ae4647f6a3cf105f0b14cbe6de595d79a\classes.dex" />
+    </item>
+    <item
+        jar="C:\git\ImPatient\ImPatient\app\libs\okhttp-2.5.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="4de2b4ed3445c37ec1720a7d214712e845a24636">
+        <dex dex="C:\git\ImPatient\ImPatient\app\build\intermediates\transforms\dex\debug\folders\1000\2\okhttp-2.5.0_2d977dc1808ff9bfef7e4196235ab48ef26225f6\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Carlos\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3.1\ecb6e1f8e4b0e84c4b886c2f14a1500caf309757\gson-2.3.1.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="C:\git\ImPatient\ImPatient\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.3.1_d0543e547585fc082c90ccbaa09802f86e3b4deb\classes.dex" />
+    </item>
+    <item
+        jar="C:\git\ImPatient\ImPatient\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="C:\git\ImPatient\ImPatient\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-22.2.1_93bc45f9c235e4aa5407887a709fdb71c4aae19d\classes.dex" />
+    </item>
+    <item
+        jar="C:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="C:\git\ImPatient\ImPatient\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-22.2.1_0cf3d10c35e3a85c12847a4ae04cc53252341eed\classes.dex" />
+    </item>
+    <item
+        jar="C:\git\ImPatient\ImPatient\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="a686c8723a1f796a44044bfdea943197587ad76e">
+        <dex dex="C:\git\ImPatient\ImPatient\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_02d85c3e9d09b91a033e4a1f35a96557d0560b8b\classes.dex" />
+    </item>
+    <item
+        jar="C:\git\ImPatient\ImPatient\app\libs\retrofit-2.0.0-beta2.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="880d9e0997b2d1bfc98e0d121ced33ee5d04aac4">
+        <dex dex="C:\git\ImPatient\ImPatient\app\build\intermediates\transforms\dex\debug\folders\1000\2\retrofit-2.0.0-beta2_476a2c53fe4ec6573a7f86f5c85b9c5c5171a1c5\classes.dex" />
+    </item>
+    <item
+        jar="C:\git\ImPatient\ImPatient\app\libs\okio-1.6.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="C:\git\ImPatient\ImPatient\app\build\intermediates\transforms\dex\debug\folders\1000\2\okio-1.6.0_8d0281dbdc1ffb81a0a4c1c16280a77198575352\classes.dex" />
+    </item>
+    <item
+        jar="C:\git\ImPatient\ImPatient\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="4bd9d1d531d59134d759d2b50068644e1d3a3120">
+        <dex dex="C:\git\ImPatient\ImPatient\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_2220cd7242fa342934db1bb4a29a7617de0e1bc9\classes.dex" />
+    </item>
+    <item
+        jar="C:\git\ImPatient\ImPatient\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="C:\git\ImPatient\ImPatient\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-22.2.1_05ccfb07b73ca0c2073be9e16d4dc85beb658184\classes.dex" />
+    </item>
+    <item
+        jar="C:\git\ImPatient\ImPatient\app\libs\converter-gson-2.0.0-beta2.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="392c3d09e0f5e7087544093cc0cb23bb9c7af5fa">
+        <dex dex="C:\git\ImPatient\ImPatient\app\build\intermediates\transforms\dex\debug\folders\1000\2\converter-gson-2.0.0-beta2_29f21d52f599bef756204dce3b21d6a7ce20f854\classes.dex" />
+    </item>
+
+</items>

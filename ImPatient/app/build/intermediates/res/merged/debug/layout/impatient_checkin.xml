@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayoutCheckIn"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_white_background"
+    android:contentDescription="@string/void_decription"
+    android:orientation="vertical" >
+
+    <include layout="@layout/impatient_action_bar" />
+
+    <TableRow
+        android:id="@+id/tableRowCheckInHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginRight="@dimen/right_dimension_20"
+        android:layout_marginTop="@dimen/top_dimension"
+        tools:ignore="RtlHardcoded" >
+
+        <TextView
+            android:id="@+id/textViewCheckInHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_view_header" />
+    </TableRow>
+
+    <ImageView
+        android:id="@+id/imageViewCheckInVerticalLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/void_decription"
+        android:src="@drawable/ic_vertical_line" />
+
+    <TableLayout
+        android:id="@+id/tableLayoutCheckIn"
+        android:layout_width="320dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/top_dimension" >
+
+        <TableRow
+            android:id="@+id/tableRowIdRecord"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textViewCheckInId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_view_id_record" />
+
+            <EditText
+                android:id="@+id/editTextCheckInId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="text" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRowFullName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textViewCheckInFullName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_view_full_name" />
+
+            <EditText
+                android:id="@+id/editTextCheckInFullName"
+                android:layout_width="match_parent"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="text" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRowDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textViewCheckInDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_view_date" />
+
+            <EditText
+                android:id="@+id/editTextCheckInDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="date" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRowHour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textViewCheckInHour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_view_hour" />
+
+            <EditText
+                android:id="@+id/editTextCheckInHour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="time" />
+
+        </TableRow>
+    </TableLayout>
+
+    <TableRow
+        android:id="@+id/tableRowCheckInButtons"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/top_dimension" >
+
+        <Button
+            android:id="@+id/buttonCheckInCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:text="@string/button_cancel"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/buttonCheckInEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_edit"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/buttonCheckInCheck"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:text="@string/button_checkin"
+            tools:ignore="ButtonStyle" />
+
+    </TableRow>
+
+</LinearLayout>

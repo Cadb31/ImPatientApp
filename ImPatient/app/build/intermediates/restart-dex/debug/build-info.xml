@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="23"
+    density="xxhdpi"
+    format="7"
+    timestamp="697783088747"
+    token="-1636518975090607894" >
+
+    <task
+        name="javac"
+        duration="4191" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="2512" />
+    <task
+        name="verifier"
+        duration="398" />
+
+    <artifact
+        location="C:\git\ImPatient\ImPatient\app\build\outputs\apk\app-debug.apk"
+        type="MAIN" />
+
+    <build timestamp="697783088747" >
+        <artifact
+            location="C:\git\ImPatient\ImPatient\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

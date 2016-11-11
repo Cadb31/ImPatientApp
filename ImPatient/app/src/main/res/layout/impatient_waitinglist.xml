@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayoutWaitingList"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_white_background"
+    android:orientation="vertical" >
+
+    <include layout="@layout/impatient_action_bar" />
+
+    <TableRow
+        android:id="@+id/tableRowWaitingListDate"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginRight="@dimen/right_dimension_20"
+        android:layout_marginTop="@dimen/top_dimension"
+        android:gravity="end"
+        tools:ignore="RtlHardcoded" >
+
+        <TextView
+            android:id="@+id/textViewWaitingListDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/text_view_date" />
+
+        <EditText
+            android:id="@+id/editTextWaitingListDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:enabled="false"
+            android:inputType="date" >
+
+            <requestFocus />
+        </EditText>
+    </TableRow>
+
+    <ImageView
+        android:id="@+id/imageViewLoginVerticalLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/void_decription"
+        android:src="@drawable/ic_vertical_line" />
+
+    <TableLayout
+        android:id="@+id/tableLayoutWaitingList"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/top_dimension" >
+
+        <TableRow
+            android:id="@+id/tableRowWaitingListTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textViewWaitingListId"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="@string/text_view_number" />
+
+            <TextView
+                android:id="@+id/textViewWaitingListHour"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:text="@string/waiting_hour" />
+
+            <TextView
+                android:id="@+id/textViewWaitingListFullName"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="@string/waiting_full_name" />
+
+            <TextView
+                android:id="@+id/textViewWaitingListState"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:text="@string/text_view_state" />
+
+        </TableRow>
+
+        <ListView
+            android:id="@+id/listViewWaitingList"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/top_dimension" >
+
+        </ListView>
+
+    </TableLayout>
+
+</LinearLayout>

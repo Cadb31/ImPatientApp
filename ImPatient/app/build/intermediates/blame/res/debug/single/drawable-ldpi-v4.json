@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\git\\ImPatient\\ImPatient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_logo.png",
+        "source": "C:\\git\\ImPatient\\ImPatient\\app\\src\\main\\res\\drawable-ldpi\\ic_logo.png"
+    },
+    {
+        "merged": "C:\\repositories\\github\\ImPatientApp\\ImPatient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_white_background.png",
+        "source": "C:\\repositories\\github\\ImPatientApp\\ImPatient\\app\\src\\main\\res\\drawable-ldpi\\ic_white_background.png"
+    },
+    {
+        "merged": "C:\\git\\ImPatient\\ImPatient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_white_background.png",
+        "source": "C:\\git\\ImPatient\\ImPatient\\app\\src\\main\\res\\drawable-ldpi\\ic_white_background.png"
+    },
+    {
+        "merged": "C:\\repositories\\github\\ImPatientApp\\ImPatient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_logo.png",
+        "source": "C:\\repositories\\github\\ImPatientApp\\ImPatient\\app\\src\\main\\res\\drawable-ldpi\\ic_logo.png"
+    }
+]

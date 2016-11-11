@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayoutDate"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_white_background"
+    android:orientation="vertical" >
+
+    <include layout="@layout/impatient_action_bar" />
+
+    <TableRow
+        android:id="@+id/tableRowDateCheck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="@dimen/top_dimension"
+        android:gravity="center|end" >
+
+        <CheckBox
+            android:id="@+id/checkBoxRemember"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="@string/check_box_remember" />
+
+    </TableRow>
+
+    <ImageView
+        android:id="@+id/imageViewLoginVerticalLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/void_decription"
+        android:src="@drawable/ic_vertical_line" />
+
+    <TableLayout
+        android:id="@+id/tableLayoutDate"
+        android:layout_width="320dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/top_dimension" >
+
+        <TableRow
+            android:id="@+id/tableRowDateDate"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textViewDateDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_view_date" />
+
+            <EditText
+                android:id="@+id/editTextDateDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="date" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRowDateHour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textViewDateHour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_view_hour" />
+
+            <EditText
+                android:id="@+id/editTextDateHour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="text|time"
+                tools:ignore="TextFields" >
+
+                <requestFocus />
+            </EditText>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRowDateDoctor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textViewDateDoctor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_view_doctor" />
+
+            <EditText
+                android:id="@+id/editTextDateDoctor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="textPersonName"
+                tools:ignore="TextFields" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRowIdNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

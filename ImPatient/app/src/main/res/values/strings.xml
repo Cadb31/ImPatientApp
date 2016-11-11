@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ImPatient</string>
+    <string name="contentDescWList">Waiting List</string>
+    <string name="contentDescCheckIn">Check In</string>
+    <string name="contentDescProfile">Profile</string>
+    <string name="contentDescDoctor">Doctor</string>
+    <string name="contentDescEmail">Email</string>
+    <string name="contentDescTreatment">Treatment</string>
+    <string name="contentDescDate">Date</string>
+    <string name="contentDescSettings">Settings</string>
+    <string name="contentDescLogo">ImPatient</string>
+    <string name="text_view_user">User:</string>
+    <string name="text_view_password">Password:</string>
+    <string name="button_login">LogIn</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="login_layout_title">ImPatient - Login</string>
+    <string name="menu_layout_title">ImPatient - Menu</string>
+    <string name="checkin_layout_title">ImPatient - CheckIn</string>
+    <string name="waiting_list_layout_title">ImPatient - Waiting List</string>
+    <string name="profile_layout_title">ImPatient - Profile</string>
+    <string name="doctor_layout_title">ImPatient - Doctor</string>
+    <string name="email_layout_title">ImPatient - Email</string>
+    <string name="treatment_layout_title">ImPatient - Treatment</string>
+    <string name="date_layout_title">ImPatient - Date</string>
+    <string name="setting_layout_title">ImPatient - Settings</string>
+    <string name="text_view_full_name">Full Name:</string>
+    <string name="text_view_id_record">Id Record:</string>
+    <string name="text_view_date">Date:</string>
+    <string name="text_view_hour">Hour:</string>
+    <string name="button_edit">Edit</string>
+    <string name="button_checkin">CheckIn</string>
+    <string name="check_box_remember">Remember</string>
+    <string name="text_view_doctor">Doctor:</string>
+    <string name="button_save">Save</string>
+    <string name="text_view_first_name">First Name:</string>
+    <string name="text_view_last_name">Last Name:</string>
+    <string name="text_view_date_of_birth">Date of Birth:</string>
+    <string name="text_view_id_number">Id Number:</string>
+    <string name="text_view_email">Email:</string>
+    <string name="text_view_phone">Phone:</string>
+    <string name="button_contact">Contact</string>
+    <string name="text_view_instruction">Instructions</string>
+    <string name="void_decription"></string>
+    <string name="text_view_number">N. List</string>
+    <string name="text_view_header">Information</string>
+    <string name="text_view_header_login">Login</string>
+    <string name="question_cancel">Do you want to cancel?</string>
+    <string name="alert_message">Alert</string>
+    <string name="info_message">Info</string>
+    <string name="button_ok">OK</string>
+    <string name="text_view_settings">Settings</string>
+    <string name="user_login_name">username</string>
+    <string name="user_login_password">password</string>
+    <string name="button_close">Close</string>
+    <string name="login_not_valid">The user or password are not valid.</string>
+    <string name="app_error_message">There was a problem with the cloud service impatient, please try again later.</string>
+    <string name="app_info_message">Change State of WaitingList</string>
+    <string name="app_update_message">Your information have been updated</string>
+    <string name="waiting_hour">Hour</string>
+    <string name="waiting_full_name">Full Name</string>
+    <string name="text_view_email_header">Email</string>
+    <string name="text_view_state">State</string>
+
+</resources>
